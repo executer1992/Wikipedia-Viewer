@@ -1,0 +1,90 @@
+html body{
+    background-color: #300e34;
+  height: 100vh;
+}
+.wikipedia-item-container ul{
+  margin-bottom: 20px;
+}
+#showcase{
+  margin: 50px;
+  position: relative;
+  height: 60vh;
+  
+}
+#showcase #obraz{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#pro{
+  text-transform: capitalize;
+  line-height: 2em;
+  color: #3D9970;
+  font-size: 25px;
+   font-weight: 900;
+  border-bottom: 3px solid #c1b75f;
+  z-index: 2;
+  
+}
+h1.text-primary{
+    font-weight: 900;
+  font-family: "Julee";
+    font-size: 60px;
+    text-decoration: none;
+    color: #c1b75f;
+}
+.container{
+  margin:auto;
+}
+#showcase a:hover{
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+}
+#showcase a:active{
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+}
+#showcase  a:visited{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+#showcase a:link{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.wikipedia-item-container, p{
+  color:white;
+  font-size: 20px;
+  background-color: ;
+  margin-bottom: 20px;
+  padding: 0px;
+   font-weight: 600;
+}
+.wikipedia-item-container p{
+  color: #cc8800;
+  font-size: 20px;
+  line-height:1.5em;
+   font-weight: 600;
+}
+#zxc{
+  margin-top:50px;
+}
+@media (max-width: 700px){
+  h1.text-primary{
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  #pro{
+    font-size:25px;
+    line-height: 1.5em;
+    border-bottom: 1px solid;
+  }
+  #showcase #obraz{
+    margin-top: 100px;
+  }
+ 
+}
